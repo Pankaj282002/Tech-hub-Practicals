@@ -8,12 +8,13 @@ public class SumOfNaturalNum{
 		System.out.printf("\nEnter a number : ");
 		int num = in.nextInt();
 		
-		int i = 1, sum = 0;
+		int i = 1, sum = 1;
 		while(i<=num){
+			
 			sum = sum + i;
 			i++;
 		}
-	System.out.printf("Sum of 1 to %d is %d", num, sum);
-
+	System.out.print("Sum : "+ sum);
+	
 }
 }
