@@ -1,12 +1,13 @@
-// print Half Pyramid
-public class HalfPyramid{
-	public static void main(String x[]){
-		
-	for(int line =1;line<= 5; line++){
-		for(int star =1;star <= line; star++){
-		System.out.print("*");	
-			}
-		System.out.println();
-		}
+public class halfPyramid{
+	public static void main(String pankaj[]){
+		for(int i=1; i<=6; i++)
+		{
+			for(int j=1; j<=i; j++)
+			{
+				System.out.print(" * ")	;
+			} // inner closed
+
+			System.out.println("");
+		} // outer closed.
 	}
 }
