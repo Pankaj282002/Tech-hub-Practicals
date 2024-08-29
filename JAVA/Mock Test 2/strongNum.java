@@ -3,12 +3,10 @@ public class strongNum{
 
 	public static  void main(String x[])
 	{
-		Scanner in = new Scanner(System.in);
-		System.out.printf("Enter a Number : ");
-		int num = in.nextInt();
+		
 		int strong=0;
 		int temp = num;
-
+	for(int i=1; i<=100; i++){
 		while(num!=0){
 
 			int digit = num%10;
@@ -23,10 +21,12 @@ public class strongNum{
 		}
 
 		if(strong == temp){
-		System.out.println("\nThe number is Strong Number");
+			System.out.println("\nThe number is Strong Number");
+		flag = true;
 		}
 		else{
-		System.out.println("The number is Not a Strong Number");
+			System.out.println("The number is Not a Strong Number");
 		}
+	}
  	}
 }
