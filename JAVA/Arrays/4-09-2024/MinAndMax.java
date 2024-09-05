@@ -2,7 +2,7 @@ import java.util.*;
 public class MinAndMax
 {
 
-static int array []= new int[5];
+static int array []= new int[10];
 static int max = array[0];
 
 	public static void main(String pankaj[])
