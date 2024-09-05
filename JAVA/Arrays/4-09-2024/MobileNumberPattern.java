@@ -1,3 +1,5 @@
+// Remender :- This program genrating unexpected output.
+
 import java.util.*;
 class MobileNumberPattern
 {
@@ -30,7 +32,7 @@ class MobileNumberPattern
 	{
 		for(int i=0; i<a.length; i++)
 		{
-			if(a[i]<4 && a[i]>7)
+			if(i<2&& i>7)
 			{
 				System.out.printf("%d", a[i]);
 			}else{
@@ -44,7 +46,7 @@ class MobileNumberPattern
 	{
 		for(int i=0; i<a.length; i++)
 		{
-			if(a[i]%2 == 0)
+			if(i%2 == 0)
 			{
 				System.out.printf("*");
 			}else{
