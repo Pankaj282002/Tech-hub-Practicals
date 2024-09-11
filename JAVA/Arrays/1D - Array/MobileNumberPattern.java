@@ -1,4 +1,3 @@
-// Remender :- This program genrating unexpected output.
 
 import java.util.*;
 class MobileNumberPattern
@@ -12,17 +11,28 @@ class MobileNumberPattern
 		{
 			MoNum[i] = in.nextInt();
 		}
-	
+
+		System.out.printf("Mo. no                   : ");
+		for(int i=0; i<MoNum.length; i++)
+		{
+			System.out.printf("%d", MoNum[i]);
+		}
+		System.out.println();
 		Star(MoNum);
 		hash(MoNum);
 		evenStar(MoNum);
 	}
 	public static void Star(int a[])
 	{
+		System.out.printf("Mo. no with star pattern : ");
 		for(int i=0; i<a.length; i++)
 		{
-			
+			if(i>2 && i<7)
+			{
 				System.out.printf("%d", a[i]);
+			}else{
+				System.out.printf("*");
+			}
 			
 		}
 		System.out.println();
@@ -30,13 +40,14 @@ class MobileNumberPattern
 
 	public static void hash(int a[])
 	{
+		System.out.printf("Mo. no with hash pattern : ");
 		for(int i=0; i<a.length; i++)
 		{
-			if(i<2&& i>7)
+			if(i>2 && i<7)
 			{
-				System.out.printf("%d", a[i]);
-			}else{
 				System.out.printf("#");
+			}else{
+				System.out.printf("%d",a[i]);
 			}
 		}
 		System.out.println();
@@ -44,13 +55,14 @@ class MobileNumberPattern
 
 	public static void evenStar(int a[])
 	{
+		System.out.printf("Mo. no with mix pattern  : ");
 		for(int i=0; i<a.length; i++)
 		{
 			if(i%2 == 0)
 			{
-				System.out.printf("*");
+				System.out.printf("%d",a[i]);
 			}else{
-				System.out.printf("%d", a[i]);
+				System.out.printf("*");
 			}
 		}
 	}
