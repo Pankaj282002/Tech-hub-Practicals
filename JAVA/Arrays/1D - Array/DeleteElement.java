@@ -24,7 +24,7 @@ public class DeleteElement
         			for(int i=0; i<array.length; i++)
         			{
             				System.out.printf("%d ", array[i]);
-        			}N
+        			}
         			for(int i=Position-1; i<array.length -1; i++)
         			{
             				array[i] = array[i+1];

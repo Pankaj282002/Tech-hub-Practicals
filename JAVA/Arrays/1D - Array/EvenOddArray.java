@@ -15,7 +15,7 @@ static int array [] = new int[10];
 		System.out.println();
 		System.out.println("Enter elements of array.");
 		
-		for(int i=0; i<array.length; i++N )
+		for(int i=0; i<array.length; i++ )
 		{
 			array[i] = in.nextInt();
 		}
