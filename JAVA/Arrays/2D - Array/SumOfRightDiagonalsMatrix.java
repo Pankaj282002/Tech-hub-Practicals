@@ -1,5 +1,5 @@
 import java.util.*;
-class SumOfLeftDiagonalsMatrix
+class SumOfRightDiagonalsMatrix
 {
 	public static void main(String pankaj[])
 	{
@@ -18,21 +18,23 @@ class SumOfLeftDiagonalsMatrix
 		}
 		in.close();
 		
-		int leftSum =0;
+		int rightSum =0;
 		System.out.println();
 		for(int i=0; i<size; i++)
 		{
 			for(int j=0; j<size; j++)
 			{
-				if(i == j)
-				{
-					leftSum += matrix[i] [j]; 	// leftSum = leftSum + matrix ;
-				}
 				System.out.printf("%d\t", matrix[i] [j]);
 			}
 			System.out.println();
+			 
 		}
+		for (int i = 0; i < size; i++) 
+			{
+      
+      				rightSum += matrix[i][size - 1 - i];
+  			}
 		System.out.println();
-		System.out.println("Sum of the left Diagonal elements is : " + leftSum);
+		System.out.println("Sum of the left Diagonal elements is : " + rightSum);
 	}
 }
