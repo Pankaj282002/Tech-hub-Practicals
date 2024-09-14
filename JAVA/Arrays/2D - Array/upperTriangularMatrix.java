@@ -1,25 +1,47 @@
 import java.util.*;
-class upperTriangularMatrix
-{	
+public class UpperTriangularMatrix
+{
 	public static void main(String pankaj[])
 	{
 		Scanner in = new Scanner(System.in);
-		System.out.printf("\nInput the size of the square matrix : ");
-		int size1 = in.nextInt();
-		System.out.printf("\nInput the size of the square matrix : ");
-		int size2 = in.nextInt();
+		System.out.printf("\nEnter a size of matrix : ");
+		int size = in.nextInt();
+		int matrix [] [] = new int [size] [size];
 		
-		if(size1 < 2 && size2 < 2)
+		if(size<2)
 		{
-			System.out.printf("\nEnter matrix size more than 2");
+			System.out.println("Enter matrix size more than 1.");
 			return;
 		}
-		else if(size1 != size2)
+		System.out.printf("\nEnter a values of Matrix.\n");
+		for(int i=0; i<size; i++)
 		{
-			System.out.printf("\nMatrixs are not same. because of you enter diffrent sizes of both matrix.");
+			for(int j=0; j<size; j++)
+			{
+				System.out.printf("Enter vlaue of [%d] [%d] : ", i, j);
+				matrix [i] [j] = in.nextInt();
+			}
 		}
 
-		
-		
+		// seting the 0 in upper triangle
+        		for (int i = 0; i < size; i++) 
+		{
+            			for (int j = i + 1; j < size; j++) 
+			{
+                				matrix[i][j] = 0;
+            			}
+        		}
+
+		System.out.printf("\nAfter setting zero in upper triangular matrix\n\n");
+		for(int i=0; i<size; i++)
+		{
+			for(int j=0; j<size; j++)
+			{
+				
+				System.out.printf(" %d\t", matrix [i] [j]);
+				
+			}
+			System.out.println();
+		}
 	}
 }
