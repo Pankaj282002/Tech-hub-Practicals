@@ -1,5 +1,5 @@
 import java.util.*;
-public class UpperTriangularMatrix
+public class LowerTriangularMatrix
 {
 	public static void main(String pankaj[])
 	{
@@ -22,20 +22,20 @@ public class UpperTriangularMatrix
 				matrix [i] [j] = in.nextInt();
 			}
 		}
-	
-		System.out.printf("\nbefore setting zero in upper triangular matrix\n\n");
+
+		System.out.printf("\nbefore setting zero in lower triangular matrix\n\n");
 		display(matrix, size);
 
-		// seting the 0 in upper triangle
+		// seting the 0 in lower triangle
         		for (int i = 0; i < size; i++) 
 		{
-            			for (int j = i + 1; j < size; j++) 
+            			for (int j = 0; j < i; j++) 
 			{
-                				matrix[i][j] = 0;
+               	 			matrix[i][j] = 0;
             			}
         		}
 
-		System.out.printf("\nAfter setting zero in upper triangular matrix\n\n");
+		System.out.printf("\nAfter setting zero in lower triangular matrix\n\n");
 		display(matrix, size);
 	}
 	public static void display(int matrix [] [] , int size )
