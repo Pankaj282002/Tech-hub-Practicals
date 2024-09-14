@@ -17,6 +17,7 @@ static int array [] = new int[10];
 		
 		for(int i=0; i<array.length; i++ )
 		{
+			System.out.printf("Enter a %d element of array : ", i+1);
 			array[i] = in.nextInt();
 		}
 		in.close();
@@ -28,7 +29,7 @@ static int array [] = new int[10];
 		{
 			if((array[i]%2) == 0)
 			{
-				System.out.printf("%d", array[i]);
+				System.out.printf("%d, ", array[i]);
 			}
 		}
 		System.out.println();
