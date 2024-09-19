@@ -35,7 +35,7 @@ class MergeAndShortDecending
 	
 		for(int i=0; i<result.length -1; i++)
 		{
-			if(result [i] < result [i])
+			if(result [i] < result [i + 1])
 			{
 				int temp = result[i];
 				result[i] = result[i +1];
