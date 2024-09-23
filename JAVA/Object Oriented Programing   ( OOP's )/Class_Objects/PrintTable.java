@@ -4,14 +4,14 @@
 
 import java.util.*;
 class Table
-{	Scanner in = new Scanner(System.in);
-	static int n;
+{	
+	int n;
 	void setNum()
 	{
+		Scanner in = new Scanner(System.in);
 		System.out.printf("\nEnter a number for print table : ");
-		int n = in.nextInt();
-		//printTable(n);
-		
+		n = in.nextInt();
+		in.close();
 	}
 	void printTable()
 	{
@@ -30,22 +30,3 @@ public class PrintTable
 		in.printTable();
 	}
 }
-/*
-C:\Users\admin\Desktop\Tech hub Practicals\JAVA\OOP's\Class_Objets>javac PrintTable.java
-
-C:\Users\admin\Desktop\Tech hub Practicals\JAVA\OOP's\Class_Objets>java PrintTable
-
-Enter a number for print table : 5
-0 X 1 = 0
-0 X 2 = 0
-0 X 3 = 0
-0 X 4 = 0
-0 X 5 = 0
-0 X 6 = 0
-0 X 7 = 0
-0 X 8 = 0
-0 X 9 = 0
-0 X 10 = 0
-
-C:\Users\admin\Desktop\Tech hub Practicals\JAVA\OOP's\Class_Objets> */
-
