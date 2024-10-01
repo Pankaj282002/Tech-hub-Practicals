@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+}
+.container{
+    width: 80%;
+    min-height: 300px;
+    border: 1px solid lightslategray;
+    margin: auto;
+    /* background-color: red; */
+}
+.header{
+    width: 100%;
+    height: 80px;
+    padding: 4px;
+    /* background-color: navy; */
+}
+.logo table tr td img{
+    width: 10%;
+    height: 50%;
+}
+.nav{
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.3em;
+    padding-top: 20px;
+}
+.slider{
+    width: 100%;
+    height: 300px;
+    margin-top: 5px;
+    background-color: #B8001F;
+    /* margin: 5px; */
+}
+.slider img{
+    width:100%;
+    height: 100%;
+    
+}
+.content{
+    width: 100%;
+    min-height:300px;
+    background-color: #507687;
+    margin-top: 5px;
+}
+.footer{
+    width: 100%;
+    height:50px;
+    background-color: navy;
+}
