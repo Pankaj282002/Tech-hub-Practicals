@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.container{
+    width: 80%;
+    min-height: 300px;
+    border: 1px solid lightslategray;
+    margin: auto;
+}
+.header{
+    width: 98%;
+    min-height: 60px;
+    border: 1px solid lightslategray;
+    background-color: red;
+    margin: 1%;
+    padding: 5%;
+    text-align: center;
+}
+.nav{
+    width: 98%;
+    min-height: 60px;
+    border: 1px solid lightslategray;
+    background-color: blue;
+    margin: 1%;
+    padding: 5%;
+    text-align: center;
+}
+.section{
+    width: 56%;
+    min-height: 200px;
+    border: 1px solid lightslategray;
+    margin: 1%;
+    background-color: rgb(255, 225, 0);
+    text-align: center;
+    padding: 15%;
+    float: left;
+}
+.aside{
+    width: 40%;
+    min-height: 200%;
+    border: 1px solid lightslategray;
+    margin: 1%;
+    background-color: rgb(255, 0, 247);
+    text-align: center;
+    padding: 15%;
+    float: right;
+}
+.article{
+    width: 56%;
+    min-height: 200px;
+    border: 1px solid lightslategray;
+    margin: 1%;
+    background-color: rgb(255, 166, 0);
+    text-align: center;
+    padding: 15%;
+    float: left;
+}
+.footer{
+    width: 98%;
+    min-height: 60px;
+    border: 1px solid lightslategray;
+    background-color: gainsboro;
+    float:right;
+    margin: 1%;
+    padding:30px;
+    text-align: center;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
