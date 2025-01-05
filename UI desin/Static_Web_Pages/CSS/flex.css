@@ -1,0 +1,32 @@
+body
+{
+
+}
+.container
+{
+	width : 100%;
+	min-height : 250px;
+	margin : auto;
+	background-color : red;
+	text-align : center;
+	display : flex;
+	justify-content : center;
+	align-items : center;
+	flex-direction : row;
+	flex-wrap : wrap;
+	gap : 40px 30px;
+	
+}
+.container div
+{
+	width: 92px;
+	height : 70px;
+	background-color : blue;
+	border : 1px solid black;
+}
+.container div:hover
+{
+	background-color : orange;
+	color : white;
+	cursor : grab;
+}

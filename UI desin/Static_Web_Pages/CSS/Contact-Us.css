@@ -1,0 +1,64 @@
+body{
+	margin : 0;
+	padding : 0;
+	background-color : #fec500 ;
+}
+.container{
+	margin : 100px;
+	min-height : 350px;
+	border : 1px solid black;
+	display : flex;
+}
+.form{
+	margin : 0;
+	padding : 20px;
+	width : 40%;
+	height : 400px;
+	background-color : skyblue;
+}
+.form .logo{
+	margin-bottom : 20px;
+}
+.form a{
+	text-decoration : none;
+	color : black;
+}
+.form .content{
+	padding : 5px;
+}
+.form .content p{
+	width : 70%;
+}
+.form .main-form{
+	padding : 5px;
+}
+.form .main-form input, button {
+	margin : 5px;
+	padding : 2px;
+	border-radius : 5px;
+}
+.form .main-form button{
+	background-color : orange;
+	color : white;
+	text-decoration : bold;
+}
+.aside{
+	margin : 0;
+	padding : 20px;
+	width : 60%;
+	height : 400px;
+	background-color : white;
+}
+.aside nav ul{
+	list-style : none;
+}
+.aside nav ul li {
+	display : inline;
+}
+.aside nav ul li a{
+	text-decoration : none;
+	padding-left : 7px;
+	font-size : 0.9em;
+	color : black;
+
+}

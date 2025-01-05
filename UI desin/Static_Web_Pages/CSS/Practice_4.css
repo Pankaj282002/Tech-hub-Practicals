@@ -7,12 +7,13 @@ body{
 }
 .container{
 	border : 1px solid black;
-	width : 80%;
+	width : 100%;
 	min-height : 100%;
 	margin : auto;
 	display : flex;
 	flex-direction : column;
 	fustify-content : space-between;
+	background-color : #9ee5d8;
 }
 header{
  	background-color : #333;
@@ -22,7 +23,8 @@ header{
 }
 header .logo{
 	margin : 0;
-	color : white;
+	padding-left : 6px;
+	color : yellow;
 }
 
 nav ul{
@@ -39,12 +41,53 @@ nav ul li a{
 	text-decoration : none;
 	font-size : 19px;
 }
+main {
+	margin : 0;
+	padding : 10px;
+}
 main p{
 	margin : 0;
 	padding : 20px;
+	color : black;
+	
+}
+main .slider{
+	margin : 0;
+	margin-top : 10px;
+	width : 100%;
+	min-height : 50px;	
+}
+main .slider img {
+	margin : 0;
+	width : 100%;
+	border-radius : 10px;
+}
+main .boxes{
+	margin : 0;
+	width : 100%;
+	min-height : 100px;
+	display : flex;
+}
+main .box_1, .box_2, .box_3{
+	min-height : 100px;
+	width : 32%;
+	margin-top : 10px;
+	border : 1px solid black;
+	border-radius : 10px;
+}
+main .box_1{
+	background-color : #FF5733;
+}
+main .box_2{
+	margin-left : 2%;
+	margin-right : 2%;
+	background-color : #359db3;
+}
+main .box_3{
+	background-color : #fda404;
 }
 footer{
-	background-color : #f1f1f1;
+	background-color : #6eb6ad;
 	width : 100%;
 	padding : 10px;
 	text-align : center;

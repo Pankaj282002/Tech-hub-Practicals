@@ -1,0 +1,167 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+.container{
+width: 100%;
+min-height: 300px;
+margin: auto;
+}
+.container header{
+	width: 100%;
+	height: 100vh;
+	background-image: url('ShImage.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container header .navbar{
+	width: 90%;
+	margin: auto;
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.container header .navbar:hover{
+ border: 2px solid yellow;
+ border-radius: 10px;
+ background-color: bluebolet;
+}
+.container header nav ul{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	background-color: blue;
+	border-radius: 10px;
+}
+.container header nav ul li a{
+	text-decoration: none;
+	color: white;
+
+}
+ .container main{
+ 	width: 100%;
+ 	min-height: 400px;
+ 	background-image: url('image2.jpg');
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ }
+ .container main .slidear{
+  width: 100%;
+ min-height : 150px;
+ background-color: red;
+ border : 1px solid green;
+ display: flex;
+ justify-content: space-around;
+ }
+ .container main .slidear .card1, .card2, .card3, .card4, .card5{
+  width: 30%;
+  min-height: 90px;
+  background-color: lime;
+  }
+
+ .container main .cards-cont{
+ width: 100%;
+ min-height : 150px;
+ background-color: red;
+ border : 1px solid green;
+ display: flex;
+ justify-content: space-around;
+ }
+ .container main .cards-cont .left-cont{
+ width: 24%;
+ min-height : 400px;
+ padding:10px;
+ align-items: center;
+ background-color: yellow;
+ border : 1px solid blue;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ gap: 10px;
+ }
+ .container main .cards-cont .left-cont:hover{
+ border: 2px solid yellow;
+ border-radius: 10px;
+ background-color: black;
+ }
+  .container main .cards-cont .right-cont:hover{
+ border: 2px solid yellow;
+ border-radius: 10px;
+ background-color: black;
+ }
+
+ .container main .cards-cont .right-cont{
+ width: 74%;
+ min-height : 100px;
+ align-items: center;
+ background-color: blue;
+ border : 1px solid blue;
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ gap: 10px;
+
+ }
+  .container main .cards-cont .left-cont .card1{
+  width: 80%;
+  min-height: 90px;
+  background-color: lime;
+  }
+ .container main .cards-cont .left-cont .card2{
+  	width: 80%;
+  	min-height: 90px;
+  	background-color: blue;
+  }
+ .container main .cards-cont .left-cont .card3{
+  	width: 80%;
+  	min-height: 90px;
+  	background-color: gold;
+  }
+ .container main .cards-cont .left-cont .card4{
+  	width: 80%;
+  	min-height: 90px;
+  	background-color: maroon;
+  }
+ .container main .cards-cont .left-cont .card5{
+  	width: 80%;
+  	min-height: 90px;
+  	background-color: plum;
+  }
+ .container main .cards-cont .right-cont .card1{
+  width: 30%;
+  min-height: 90px;
+  background-color: lime;
+  }
+ .container main .cards-cont .right-cont .card2{
+  	width: 30%;
+  	min-height: 90px;
+  	background-color: red;
+  }
+ .container main .cards-cont .right-cont .card3{
+  	width: 30%;
+  	min-height: 90px;
+  	background-color: gold;
+  }
+ .container main .cards-cont .right-cont .card4{
+  	width: 30%;
+  	min-height: 90px;
+  	background-color: maroon;
+  }
+ .container main .cards-cont .right-cont .card5{
+  	width: 30%;
+  	min-height: 90px;
+  	background-color: plum;
+  }
+ .container main .cards-cont .left-cont .Lcards:hover{
+ 	border: 2px solid red;
+ 	border-radius: 10px;
+ 	background-color: #f1f1f1;
+ }
+  .container main .cards-cont .right-cont .Rcards:hover{
+ 	border: 2px solid red;
+ 	border-radius: 10px;
+ 	background-color: #f1f1f1;
+ }
+

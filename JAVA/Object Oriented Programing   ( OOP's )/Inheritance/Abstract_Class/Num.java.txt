@@ -1,0 +1,13 @@
+abstract class Num
+{
+	abstract int getResult(int no);
+	abstract void getResult();
+}
+class RevNumber extends Num 
+{
+
+}
+class CountDigit extends Num
+{
+
+}

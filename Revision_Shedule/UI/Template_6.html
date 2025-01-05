@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Preferences Form</title>
+    <link rel="stylesheet" href="/css/Template_6.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>User Preferences</h1>
+        <form>
+            <!-- Dropdown -->
+            <div class="form-group">
+                <label for="favorite-color">Choose your favorite color:</label>
+                <select id="favorite-color" name="favorite-color">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                    <option value="yellow">Yellow</option>
+                </select>
+            </div>
+
+            <!-- Radio Buttons -->
+            <div class="form-group">
+                <label>Preferred mode of contact:</label>
+                <div class="radio-group">
+                    <input type="radio" id="email" name="contact" value="email">
+                    <label for="email">Email</label><br>
+                    <input type="radio" id="phone" name="contact" value="phone">
+                    <label for="phone">Phone</label><br>
+                    <input type="radio" id="sms" name="contact" value="sms">
+                    <label for="sms">SMS</label>
+                </div>
+            </div>
+
+            <!-- Checkboxes -->
+            <div class="form-group">
+                <label>Select your hobbies:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="reading" name="hobbies" value="reading">
+                    <label for="reading">Reading</label><br>
+                    <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+                    <label for="traveling">Traveling</label><br>
+                    <input type="checkbox" id="coding" name="hobbies" value="coding">
+                    <label for="coding">Coding</label>
+                </div>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

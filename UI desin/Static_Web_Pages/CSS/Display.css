@@ -1,0 +1,34 @@
+body
+{
+	
+}
+.container
+{
+	margin : 0;
+	padding : 0;
+	width : 80%;
+	margin : auto;
+	border : 1px solid black;
+	background-color : lightgray;
+	
+	<!-- display : block, inline, inline-block, none, flex, grid, inline-flex, table, list-item; -->
+	display: flex;
+	
+	<!-- flex : justify-content, align-items, flex-direction, flex-wrap -->
+	<!-- justify-content : flex-start, flex-end, center, space-between, space-around, space evenly; -->
+	<!-- align-items : flex-start, flex-end, center, baseline, stretch; -->
+	<!-- flex-direction : row, row-reverse, cloumn, column-reverse; -->
+	<!-- flex-wrap : nowrap, wrap, wrap-reverse; -->
+	
+	justify-content : center;
+	align-items : center;
+}
+.container .one, .two, .three, .four
+{
+	margin : 0;
+	padding : 5px;
+	width : 20%;
+	min-height : 50px;
+	border : 1px solid black;
+	background-color : dodgerblue;
+}

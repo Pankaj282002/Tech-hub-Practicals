@@ -1,0 +1,100 @@
+body
+{
+	margin : 0;
+	padding : 0;
+}
+.container
+{
+	margin : 0;
+	padding : 0;
+	min-height: 500px;
+}
+header
+{
+	margin : 0;
+	padding : 0;
+	border : 1px solid black;
+	min-height: 100px;
+	color : white;
+	background-image : linear-gradient( 45deg, black, grey, #f1f1f1);
+}
+header .head
+{
+	margin : 0;
+	padding : 0;
+	border : 1px solid black;
+	min-height : 50px;
+	display : flex;
+}
+header .head .logo
+{
+	margin : 2px;
+	padding : 2px;
+	border : 1px solid white;
+	width : 30%;
+}
+header .head .menu
+{
+	margin : 2px;
+	padding : 2px;
+	border : 1px solid white;
+	width : 40%;
+}
+header .head .menu ul
+{
+	width : 100%;
+	display : flex;
+	list-style : none;
+}
+header .head .menu ul li
+{
+	text-decoration : none;
+	margin-left : 10px;
+}
+header .head .Contact_Num
+{
+	margin : 2px;
+	padding : 2px;
+	border : 1px solid white;
+	width : 30%;
+}
+
+header .banner
+{
+	margin : 0;
+	padding : 0;
+	border : 1px solid black;
+	min-height: 50px;
+}
+.info
+{
+	margin : 0;
+	padding : 0;
+	min-height : 250px;
+	width: 100%;
+	display : flex;
+}
+.info .para, .rate
+{
+	margin : 0;
+	padding : 10px;
+	width : 50%;
+	border : 1px solid black;
+}
+.info .para
+{
+	background-color : #f1f1f1;
+}
+
+.info .rate
+{
+	background-color : red;
+}
+.info .rate .upper, .lower div
+{
+	width: 50%;
+}
+.info .rate .upper, .lower
+{
+	display : flex;
+}
