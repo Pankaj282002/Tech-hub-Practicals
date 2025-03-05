@@ -1,0 +1,158 @@
+body
+{
+	margin : 0;
+	padding : 0;
+}
+.container
+{
+	margin : 0;
+	padding : 0;
+	min-height: 500px;
+	background-color: #f1f1f1;
+}
+header
+{
+	margin : 0;
+	padding : 0;
+	min-height: 100px;
+	color : black;
+}
+header .head
+{
+	margin : 0;
+	padding : 0;
+	border-bottom: 2px solid black;
+	min-height : 10px;
+	display : flex;
+
+}
+header .head .logo
+{
+	margin : 4px;
+	padding : 2px;
+	width : 20%;
+}
+header .head .menu
+{
+	margin : 1px;
+	padding : 1px;
+	width : 79%;
+}
+header .head .menu ul
+{
+	width : 100%;
+	display : flex;
+	list-style : none;
+}
+header .head .menu ul li a{
+	margin : 3px;
+	padding : 3px;
+	text-decoration : none;
+}
+nav{
+	margin : 0;
+	padding : 0;
+	border-bottom : 3px solid black;
+	min-height: 50px;
+	color : black;
+	display : flex;
+}
+nav .nav {
+	margin : 1px;
+	padding : 1px;
+	width : 79%;
+	align-items: center;
+}
+nav .nav ul
+{
+	width : 100%;
+	display : flex;
+	list-style : none;
+}
+nav .nav ul li a{
+	text-decoration : none;
+	margin : 3px;
+	padding : 3px;
+}
+nav .search {
+	margin-top: 20px;
+	margin-right: 10px;
+}
+nav .search input{
+	border-radius: 3px;
+}
+.main {
+	margin : 0px;
+	padding : 15px;
+	min-height: 25px;
+}
+.main .fist{
+	margin : 2px;
+	padding :4px;
+	width:100%;
+	display : flex;
+	justify-content: space-between;
+}
+.main .fist .left{
+	margin : 5px;
+	padding : 2px;
+	width: 55%;
+}
+.main .fist .right{
+	margin : 5px;
+	padding : 2px;
+	width: 35%;
+}
+.main .second{
+	margin : 5px;
+	padding :4px;
+	width:100%;
+	display : flex;
+	justify-content: space-between;
+}
+.main .second .right{
+	margin : 0px;
+	padding : 0px;
+	width: 30%;
+}
+.main .second .left{
+	margin : 5px;
+	padding : 0px;
+	width: 70%;
+	background-color: antiquewhite;
+}
+.main .second .left .inside{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	padding : 5px;
+	width: 70%;
+	min-height: 60%;
+	background-color: rgba(0, 0, 0, 0.797);
+	color : white;	
+}
+.main .second .left .inside h2{
+	margin-top : 10px;
+	margin-bottom: 0px;
+	padding : 0;
+}
+.main .second .left .inside h5{
+	margin-top : 0px;
+	margin-bottom: 5px;
+	padding : 0;
+}
+.main .third{
+	margin : 5px;
+	padding :4px;
+	width:100%;
+	display : flex;
+	justify-content: space-evenly;
+}
+.main .third .one, .two, .three, .four{
+	margin : 5px;
+	padding : 4px;
+	width: 24%;
+	border-radius: 4px;
+	border-top: 5px solid blue ;
+	background-color: #b3adad;
+
+}
