@@ -8,7 +8,6 @@ public class primeNum{
 	int check = 0;
 	boolean flag = true;
 	for(int i = 2; i<num; i++){
-
 	for(int j = 2; j<i; j++){
 	int tempNum = i%j;
 		if(tempNum==0){
@@ -19,7 +18,5 @@ public class primeNum{
 		System.out.printf("%d \t", i);
 	}
 	}
-	
-	
 }
 }

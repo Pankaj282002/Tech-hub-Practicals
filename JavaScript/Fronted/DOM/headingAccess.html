@@ -1,0 +1,23 @@
+<html>
+ <head>
+   <title>first example of DOM</title>
+   <script type='text/javascript'>
+     function accessHeading(){
+	      let heading = document.getElementById("h");
+		  let text=heading.innerHTML;
+		  alert(text);
+	  }
+   </script>
+   <style>
+     input{
+	    width:400px;
+		height:40px;
+	 }
+   </style>
+ </head>
+ <body>
+   <input type='button' name='s' value='Access Heading Data' onClick="accessHeading()"/>
+   <br><br>
+   <h1 id="h">good morning india</h1>
+ </body>
+</html>

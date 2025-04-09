@@ -1,14 +1,14 @@
 import java.util.*;
-public class SumOfNumbers{
+public class Factorial {
     public static void main(String pankaj []){
         Scanner in = new Scanner(System.in);
         System.out.print("Enter a Number : ");
         int num = in.nextInt();
-        int sum = 0;
-        for(int i=1; i<=num; i++){
-            sum+=num;
+        int fact = 1;
+        for(int i=num; i>=2; i--){
+            fact+=i;
         }
-        System.out.println("Sum : " + sum);
-        System.out.println();
+        System.out.printf("Factorial of %d is : %d \n", num, fact);
+        
     }
 }
